@@ -1,0 +1,38 @@
+2025-10-24 23:05:53,557 - INFO - ==================================================
+2025-10-24 23:05:53,557 - INFO - Starting allocation engine test...
+2025-10-24 23:05:53,557 - INFO - Loading data from input_btp_mtp_allocation.csv
+2025-10-24 23:05:53,798 - INFO - Loaded 90 students
+2025-10-24 23:05:53,799 - INFO - Found 18 faculties: ['ABM', 'AE', 'AM', 'AR', 'CA', 'JC', 'JM', 'MA', 'RH', 'RM', 'RM2', 'RS', 'SK', 'SKD', 'SKM', 'SM', 'SS', 'ST']
+2025-10-24 23:05:53,799 - INFO - Starting student allocation process
+2025-10-24 23:05:53,799 - INFO - Sorting students by CGPA (descending)
+2025-10-24 23:05:53,803 - INFO - Sorted 90 students by CGPA
+2025-10-24 23:05:53,815 - INFO - Allocation completed for 90 students
+2025-10-24 23:05:53,816 - INFO - Allocation completed for 90 students
+2025-10-24 23:05:53,816 - INFO - Generating preference statistics
+2025-10-24 23:05:53,848 - INFO - Preference statistics generated successfully
+2025-10-24 23:05:53,849 - INFO - Preference statistics generated for 18 faculties
+2025-10-24 23:05:53,851 - INFO - Allocation summary: {'total_students': 90, 'faculty_distribution': {'RM': 5, 'RM2': 5, 'RS': 5, 'SKD': 5, 'CA': 5, 'AM': 5, 'ABM': 5, 'JM': 5, 'AE': 5, 'AR': 5, 'SKM': 5, 'MA': 5, 'SM': 5, 'SS': 5, 'SK': 5, 'JC': 5, 'ST': 5, 'RH': 5}, 'preference_satisfaction': {'pref_1': np.int64(49), 'pref_2': np.int64(18), 'pref_3': np.int64(4), 'other': np.int64(19)}}
+2025-10-24 23:05:53,857 - INFO - Allocation results saved to test_allocation_output.csv
+2025-10-24 23:05:53,859 - INFO - Preference statistics saved to test_preference_stats.csv
+2025-10-24 23:05:53,864 - INFO - === VALIDATION RESULTS ===
+2025-10-24 23:05:53,864 - INFO - Total students allocated: 90
+2025-10-24 23:05:53,865 - INFO - Unique faculties: 18
+2025-10-24 23:05:53,865 - INFO - Faculty distribution:
+2025-10-24 23:05:53,866 - INFO -   RM: 5 students
+2025-10-24 23:05:53,867 - INFO -   RM2: 5 students
+2025-10-24 23:05:53,867 - INFO -   RS: 5 students
+2025-10-24 23:05:53,867 - INFO -   SKD: 5 students
+2025-10-24 23:05:53,867 - INFO -   CA: 5 students
+2025-10-24 23:05:53,867 - INFO -   AM: 5 students
+2025-10-24 23:05:53,867 - INFO -   ABM: 5 students
+2025-10-24 23:05:53,867 - INFO -   JM: 5 students
+2025-10-24 23:05:53,867 - INFO -   AE: 5 students
+2025-10-24 23:05:53,867 - INFO -   AR: 5 students
+2025-10-24 23:05:53,867 - INFO -   SKM: 5 students
+2025-10-24 23:05:53,867 - INFO -   MA: 5 students
+2025-10-24 23:05:53,867 - INFO -   SM: 5 students
+2025-10-24 23:05:53,867 - INFO -   SS: 5 students
+2025-10-24 23:05:53,867 - INFO -   SK: 5 students
+2025-10-24 23:05:53,867 - INFO -   JC: 5 students
+2025-10-24 23:05:53,867 - INFO -   ST: 5 students
+2025-10-24 23:05:53,867 - INFO -   RH: 5 students
